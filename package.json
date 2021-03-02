@@ -1,11 +1,23 @@
 {
   "name": "mingull-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a npm package test",
-  "main": "index.tsx",
+  "keywords": [
+    "Test",
+    "test"
+  ],
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mingull",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mingull/mingull-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mingull/mingull-test/issues"
+  },
+  "homepage": "https://github.com/Mingull/mingull-test#readme"
 }
