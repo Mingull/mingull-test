@@ -9,7 +9,7 @@ export class User {
     }
 }
 export class Admin extends User {
-    getAllUser() {
+    getAllUsers() {
         return users
     }
 }
