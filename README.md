@@ -6,7 +6,7 @@ This is just a test package
 
 `npm i mingull-test-package`
 
-This is the ways to set up this package
+This is the way to set up this package
 
 ```JS
 const { Add } = require('mingull-test-package');
