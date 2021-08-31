@@ -2,7 +2,7 @@
 
 This is just a test package
 
-# Installation
+## Installation
 
 `npm i mingull-test-package`
 
