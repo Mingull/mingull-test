@@ -1,0 +1,28 @@
+{
+  "name": "mingull-test-package",
+  "description": "`npm i mingull-test`",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib",
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mingull/mingull-test.git"
+  },
+  "author": "Mingull",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mingull/mingull-test/issues"
+  },
+  "homepage": "https://github.com/Mingull/mingull-test#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "keywords": []
+}
