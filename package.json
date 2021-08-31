@@ -1,6 +1,6 @@
 {
   "name": "mingull-test-package",
-  "description": "`npm i mingull-test`",
+  "description": "This is a package where i tryout typescript",
   "version": "1.1.0",
   "main": "lib/index.js",
   "types": "lib",
