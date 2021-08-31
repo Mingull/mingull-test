@@ -1,5 +1,6 @@
-# Whats this for?
 
+# Whats this for?
+  
 This is just a test package
 
 ## Installation
@@ -9,9 +10,21 @@ This is just a test package
 This is the way to set up this package
 
 ```JS
-const { Add } = require('mingull-test-package');
+const { User, Admin } = require('mingull-test-package');
 
-console.log(`1 + 5 = '${Add(1,5)}'`);
+const  userOne = new  User("firstname", "lastname");
+const  userTwo = new  User("John", "Doe");
+const  adminOne = new  Admin("Mingull", "Dev");
+
+console.log(adminOne.getAllUser())
 ```
 
-output: `1 + 5 = '6'`
+output:
+
+```LOG
+[
+    User { firstname: 'firstname', lastname: 'lastname' },
+    User { firstname: 'John', lastname: 'Doe' },
+    Admin { firstname: 'Mingull', lastname: 'Dev' }
+]
+```
