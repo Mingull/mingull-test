@@ -13,4 +13,5 @@ const { Add } = require('mingull-test-package');
 
 console.log(`1 + 5 = ${Add(1,5)}`);
 ```
-output: 
+
+output: '1 + 5 = 6'
