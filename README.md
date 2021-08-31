@@ -11,7 +11,7 @@ There are 2 ways to set up this package
 ```JS
 const { Add } = require('mingull-test-package');
 
-console.log(`1 + 5 = ${Add(1,5)}`);
+console.log(`1 + 5 = '${Add(1,5)}'`);
 ```
 
-output: '1 + 5 = 6'
+output: `1 + 5 = '6'`
