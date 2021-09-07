@@ -1,9 +1,4 @@
-export declare class User {
-    firstname: string;
-    lastname: string;
-    constructor(firstname: string, lastname: string);
-}
-export declare class Admin extends User {
-    getAllUser(): User[];
-}
+export { Member } from "./classes/Member";
+export { Admin } from "./classes/Admin";
+export { Item } from "./classes/Item";
 //# sourceMappingURL=index.d.ts.map
